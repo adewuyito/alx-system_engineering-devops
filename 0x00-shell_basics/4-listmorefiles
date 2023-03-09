@@ -1,2 +1,3 @@
-#!/bin/basha
+#!/bin/bash
 ls -la
+\n
