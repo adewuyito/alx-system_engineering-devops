@@ -1,0 +1,2 @@
+#!/bin/bash
+wget http://www.asciimation.co.nz/_downloads/starwars-episode-iv-ascii.txt -O starwars.txt
