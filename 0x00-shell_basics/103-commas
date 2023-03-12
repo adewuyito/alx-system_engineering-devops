@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1a | 's/\([^0-9A-Za-z\/]\)/\\\1/g' | sort -t/ -k 2 | tr '\n' ',' | sed 's/,$/\n/'
+ls -p | LC_ALL=c sort -d -n -k1.1 | tr '\n' ',' | sed 's/,$/\n/'
