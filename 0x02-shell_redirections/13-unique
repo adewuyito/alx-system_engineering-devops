@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | uniq -u
+sort | uniq -c | grep -w '1' | sed 's/^[[:space:]]*//' | cut -d' ' -f2
